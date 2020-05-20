@@ -1,3 +1,4 @@
 {
-	"mongoURI": "mongodb+srv://argadipa:argadipa123@cluster0-lr9l2.mongodb.net/test?retryWrites=true&w=majority"
+	"mongoURI": "mongodb+srv://argadipa:argadipa123@cluster0-lr9l2.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtSecret": "mysecrettoken"
 }
