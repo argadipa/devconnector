@@ -55,7 +55,7 @@ router.post(
         password,
       });
 
-      // Encrypt password
+      // Encrypt password and save to database
       const salt = await bcrypt.genSalt(10);
 
       user.password = await bcrypt.hash(password, salt);
